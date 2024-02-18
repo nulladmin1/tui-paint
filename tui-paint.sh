@@ -9,7 +9,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 WHITE='\033[0;37m'
-COLOR_OFF='\o33[0m'
+COLOR_OFF='\033[0m'
 
 # Initialize variables
 x=0
@@ -54,10 +54,10 @@ while true; do
     read -rsn1 key
     case "$key" in
         # WASD Input
-        'h') y=$((y-1));;
-        'j') y=$((y+1));;
-        'k') x=$((x+1));;
-        'l') x=$((x-1));;
+        'w') y=$((y-1));;
+        's') y=$((y+1));;
+        'd') x=$((x+1));;
+        'a') x=$((x-1));;
 
         # Quit
         'q') break;;
