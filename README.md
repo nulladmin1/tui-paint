@@ -17,8 +17,12 @@ chmod +x tui-paint.sh
 ## Usage:
 
 ```
-./tui-paint.sh
+./tui-paint.sh (Arguments [optional])
 ```
+### Arguments:
+  help/--help/-h: *Prints out help information*
+  colors/c: *Prints out available colors*
+  binds/b: *Prints out keybindings*
 
 ### Keybindings:
 
