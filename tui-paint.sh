@@ -35,10 +35,10 @@ while true; do
     read -rsn1 key
     case "$key" in
         # WASD Input
-        'w') y=$((y-1));;
-        's') y=$((y+1));;
-        'd') x=$((x+1));;
-        'a') x=$((x-1));;
+        'h') y=$((y-1));;
+        'j') y=$((y+1));;
+        'k') x=$((x+1));;
+        'l') x=$((x-1));;
 
         # Quit
         'q') break;;
