@@ -1,6 +1,6 @@
 # TUI-Paint
 
-TUI-Paint is a very simple paint program coded entirely in Bash. There are a total of 14 colors to choose from (ANSI Escape Code colors) and is capable of producing pixel art.
+TUI-Paint is a very simple paint program coded entirely in Bash. There are a total of 9 colors to choose from (ANSI Escape Code colors) and is capable of producing pixel art.
 
 ------------------
 
@@ -38,17 +38,11 @@ chmod +x tui-paint.sh
 |Green |`3`|
 |Brown |`4`|
 |Blue|`5`|
-|Purple:|	`6`|
-|Cyan:|	`7`|
+|Purple|	`6`|
+|Cyan|	`7`|
 |Light Gray| `8`|
-|Dark Gray:|`9`|
-|Light Red:|`t`|
-|Light Green| y`|
-|Yellow:|`u`|
-|Light Blue:|`i`|
-|Light Purple:|`o`|
-|Light Cyan:|`p`|
-|White:|`0`|
+|White|`9`|
+|Color Off|`0`|
 
 
 ### Tested on:
